@@ -7,8 +7,8 @@
 }
 body {
         font-size: 20pt;
-    background-color: white;
-    color: brown;
+    background-color: black;
+    color: cornsilk;
     font-family: 'Rubik', sans-serif;
 }
 p{
@@ -18,3 +18,10 @@ img.resize {
   width: 70%;
   height: auto;
 } 
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  text-align: right;

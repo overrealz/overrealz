@@ -20,8 +20,10 @@
   <body>
     <div class="center">
       <br/>
-      <p> welcome to the coolest website on the internet in the world</p>
-      <p>ברוכים הבאים לאתר האינטרנט ההכי מגניב בכל העולם</p>
+      <p>welcome to the coolest website on the internet in the world</p>
+      <p>here i will just test shit and also</p>
+      <p>do a little bit of tomfoolery</p>
+      <p>(click on the pictures for surprises)</p>
       <br/>
       <p>here you will find a link to my youtube (just click the image)</p>
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -36,6 +38,32 @@
     <a href="https://twitter.com/overreaiz">
       <img src="./images/IMG_1335.PNG" alt="sakurako ohmuro third image" width=600/>
     </a>
+    <p>click the image for a surprise</p>
+    <a>
+      <img src="./images/IMG_1320.JPG" alt="click here to have ur geolocation!" onclick="getLocation()" width=600>
+      <br/>
+      <p id="demo"></p>
+      <script>
+        const x = document.getElementById("demo");
+        
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+          }
+        }
+        
+        function showPosition(position) {
+          x.innerHTML = "You live at Latitude: " + position.coords.latitude + 
+          "<br>Longitude: " + position.coords.longitude;
+        }
+
+      </script>
+    </a>
+    <p>watch kuzu no honkai :</p>
+    <a href="https://ww7.gogoanimes.org/category/kuzu-no-honkai">
+      <img src="./images/IMG_2820.JPG" alt="hanabi yasuraoka first image" width=600/>
     </div>
   </body>
 </html>
