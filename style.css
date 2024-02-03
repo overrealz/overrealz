@@ -18,3 +18,17 @@ img.resize {
   width: 70%;
   height: auto;
 } 
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+text-align: right;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: leftt;
+  align-items: left;
+text-align: left;
+}
