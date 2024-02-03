@@ -6,11 +6,11 @@
   text-align: center;
 }
 body {
-        font-size: 36pt;
+        font-size: 20pt;
     background-color: #000;
     color: #fff;
     font-family: 'Rubik', sans-serif;
   }
 .resize {
-  width: 60%;
+  width: 70%;
 }
