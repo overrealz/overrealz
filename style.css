@@ -11,3 +11,6 @@ body {
     color: #fff;
     font-family: optima, comic-sans;
   }
+.resize {
+  width: 75%;
+}
